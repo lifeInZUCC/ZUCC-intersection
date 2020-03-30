@@ -6,7 +6,7 @@ nav:
           - "警告框语法": "example/admonition.md"
           - "代码块扩展语法": "example/codehilite.md"
           - "其他扩展语法": "example/others.md"
-repo_url: https://github.com/lifeInZUCC/lifeInZUCC.github.io
+repo_url: https://github.com/lifeInZUCC/zuccCourseGuide-Src
 site_description: ZUCC
 site_author: Jaycee Chow
 remote_branch: master
