@@ -1,0 +1,57 @@
+site_name: 浙大城市学院课程资源共享计划
+nav:
+    - 简介: index.md
+    - 关于本项目: about.md
+    - Markdown扩展语法:
+          - "警告框语法": "example/admonition.md"
+          - "代码块扩展语法": "example/codehilite.md"
+          - "其他扩展语法": "example/others.md"
+repo_url: https://github.com/lifeInZUCC/lifeInZUCC.github.io
+site_description: ZUCC
+site_author: Jaycee Chow
+remote_branch: master
+remote_name: origin
+docs_dir: "docs"
+site_dir: "../lifeInZUCC.github.io"
+use_directory_urls: true
+strict: true
+dev_addr: "127.0.0.1:8000"
+theme:
+    name: "material"
+    logo:
+        icon: "ZUCC"
+    palette:
+        primary: "black"
+        accent: "deep orange"
+    language: "zh"
+extra:
+    social:
+        - type: "github"
+          link: "https://github.com/nonlinearthink?tab=repositories"
+    manifest: "manifest.webmanifest"
+google_analytics:
+    - "UA-XXXXXXXX-X"
+    - "auto"
+markdown_extensions:
+    - admonition
+    - toc:
+          permalink: true
+    - codehilite:
+          guess_lang: false
+          linenums: true
+    - footnotes
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+          custom_checkbox: true
+extra_javascript:
+    - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+plugins:
+    - search
