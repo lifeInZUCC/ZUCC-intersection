@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material
 pygments
 pymdown-extensions
+mkdocs-git-revision-date-localized-plugin

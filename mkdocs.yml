@@ -6,7 +6,9 @@ nav:
           - "警告框语法": "example/admonition.md"
           - "代码块扩展语法": "example/codehilite.md"
           - "其他扩展语法": "example/others.md"
+site_url: https://lifeinzucc.github.io/
 repo_url: https://github.com/lifeInZUCC/zuccCourseGuide-Src
+repo_name: zuccCourseGuide
 site_description: ZUCC
 site_author: Jaycee Chow
 remote_branch: master
@@ -28,7 +30,6 @@ extra:
     social:
         - type: "github"
           link: "https://github.com/nonlinearthink?tab=repositories"
-    manifest: "manifest.webmanifest"
 google_analytics:
     - "UA-XXXXXXXX-X"
     - "auto"
@@ -55,3 +56,4 @@ extra_javascript:
     - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
 plugins:
     - search
+    - git-revision-date-localized
