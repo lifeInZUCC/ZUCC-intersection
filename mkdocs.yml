@@ -2,7 +2,11 @@ site_name: 浙大城市学院课程资源共享计划
 nav:
     - 简介: index.md
     - 关于本项目: about.md
-    - 计算机网络: 计算机网络/计算机网络.md
+    - 计算机网络:
+          - "计算机网络": "计算机网络/Readme.md"
+          - 在线习题:
+                - "数据链路层": "计算机网络/resource/数据链路层.md"
+                - "网络层(一)": "计算机网络/resource/网络层(一).md"
     - Markdown扩展语法:
           - "警告框语法": "example/admonition.md"
           - "代码块扩展语法": "example/codehilite.md"
