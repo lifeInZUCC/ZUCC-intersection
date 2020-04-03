@@ -3,22 +3,28 @@ nav:
     - 简介: index.md
     - 关于本项目: about.md
     - 操作系统原理:
-          - "操作系统原理": "操作系统原理/Readme.md"
-    - 操作系统原理实验:
-          - "操作系统原理实验": "操作系统原理实验/Readme.md"
-    - 计算机网络:
-          - "计算机网络": "计算机网络/Readme.md"
+          - 导引: 操作系统原理/Readme.md
           - 在线习题:
-                - "数据链路层": "计算机网络/resource/数据链路层.md"
-                - "网络层(一)": "计算机网络/resource/网络层(一).md"
+                - 周测3: 操作系统原理/resource/周测3.md
+                - 周测4: 操作系统原理/resource/周测4.md
+                - 进程概念: 操作系统原理/resource/进程概念.md
+    - 操作系统原理实验:
+          - 导引: 操作系统原理实验/Readme.md
+    - 计算机网络:
+          - 导引: 计算机网络/Readme.md
+          - 在线习题:
+                - 数据链路层: 计算机网络/resource/数据链路层.md
+                - 网络层(一): 计算机网络/resource/网络层(一).md
     - 计算机网络实验:
-          - "计算机网络实验": "计算机网络实验/Readme.md"
+          - 导引: 计算机网络实验/Readme.md
+          - 在线习题:
+            - 测验2: 计算机网络实验/resource/测验2.md
     - 数据库原理:
-          - "数据库原理": "数据库原理/Readme.md"
+          - 导引: 数据库原理/Readme.md
     - Markdown扩展语法:
-          - "警告框语法": "example/admonition.md"
-          - "代码块扩展语法": "example/codehilite.md"
-          - "其他扩展语法": "example/others.md"
+          - 警告框语法: example/admonition.md
+          - 代码块扩展语法: example/codehilite.md
+          - 其他扩展语法: example/others.md
 site_url: https://lifeinzucc.github.io/
 repo_url: https://github.com/lifeInZUCC/zuccCourseGuide-Src
 repo_name: zuccCourseGuide
