@@ -126,13 +126,13 @@ tip也可以用hint或者important替换。
 
 ```markdown
 !!! success
-    今日份的崩坏以肝完。
+    今日份的崩坏已肝完。
 ```
 
 结果:
 
 !!! success
-    今日份的崩坏以肝完。
+    今日份的崩坏已肝完。
 
 success也可以用check或者done替换。
 

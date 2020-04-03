@@ -4,11 +4,17 @@ nav:
     - 关于本项目: about.md
     - 操作系统原理:
           - "操作系统原理": "操作系统原理/Readme.md"
+    - 操作系统原理实验:
+          - "操作系统原理实验": "操作系统原理实验/Readme.md"
     - 计算机网络:
           - "计算机网络": "计算机网络/Readme.md"
           - 在线习题:
                 - "数据链路层": "计算机网络/resource/数据链路层.md"
                 - "网络层(一)": "计算机网络/resource/网络层(一).md"
+    - 计算机网络实验:
+          - "计算机网络实验": "计算机网络实验/Readme.md"
+    - 数据库原理:
+          - "数据库原理": "数据库原理/Readme.md"
     - Markdown扩展语法:
           - "警告框语法": "example/admonition.md"
           - "代码块扩展语法": "example/codehilite.md"
