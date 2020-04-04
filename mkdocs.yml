@@ -11,7 +11,7 @@ strict: true
 
 # Repository
 repo_name: 帮助我们完善这个网站
-repo_url: https://github.com/lifeInZUCC/zuccCourseGuide
+repo_url: https://github.com/lifeInZUCC/ZUCC-intersection
 
 # Copyright
 copyright: "Copyright &copy; 2020 lifeInZUCC organization"
