@@ -45,6 +45,8 @@ theme:
         primary: "grey"
         accent: "deep orange"
     language: "zh"
+    feature:
+      tabs: true
 extra:
     social:
         - type: "github"
