@@ -1,0 +1,3 @@
+*.sh linguist-language=python
+*.md linguist-language=python
+*.yml linguist-language=python
