@@ -1,6 +1,6 @@
 # Project information
-site_name: 浙大城市学院课程资源共享计划
-site_description: 一个乐于为ZUCCer提供学习资料的网站
+site_name: INTERSECTION
+site_description: ZUCC INTERSECTION是一个由学生自主发起的，提供浙大城市学院信息资讯的网络信息站。
 site_author: Jaycee Chow
 site_url: https://lifeinzucc.github.io
 
@@ -10,7 +10,7 @@ site_dir: "../lifeInZUCC.github.io"
 strict: true
 
 # Repository
-repo_name: lifeInZUCC/zuccCourseGuide
+repo_name: 帮助我们完善这个网站
 repo_url: https://github.com/lifeInZUCC/zuccCourseGuide
 
 # Copyright
@@ -28,7 +28,7 @@ theme:
   logo:
     icon: "ZUCC"
   palette:
-    primary: "grey"
+    primary: "black"
     accent: "deep orange"
   language: "zh"
   feature:
@@ -49,6 +49,7 @@ extra:
 
 # Extensions
 markdown_extensions:
+  - footnotes
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
       guess_lang: false
@@ -75,28 +76,31 @@ extra_javascript:
 # Page tree
 nav:
   - 简介: index.md
+  - 我们的故事: log.md
   - 关于本项目: about.md
-  - 课程:
+  - ZUCC课程补全计划:
+      - 简介: course/Readme.md
       - 操作系统原理:
-          - 导引: 操作系统原理/Readme.md
+          - 导引: course/操作系统原理/Readme.md
           - 在线习题:
-              - 周测3: 操作系统原理/resource/周测3.md
-              - 周测4: 操作系统原理/resource/周测4.md
-              - 进程概念: 操作系统原理/resource/进程概念.md
+              - 周测3: course/操作系统原理/resource/周测3.md
+              - 周测4: course/操作系统原理/resource/周测4.md
+              - 进程概念: course/操作系统原理/resource/进程概念.md
       - 操作系统原理实验:
-          - 导引: 操作系统原理实验/Readme.md
+          - 导引: course/操作系统原理实验/Readme.md
       - 计算机网络:
-          - 导引: 计算机网络/Readme.md
+          - 导引: course/计算机网络/Readme.md
           - 在线习题:
-              - 数据链路层: 计算机网络/resource/数据链路层.md
-              - 网络层(一): 计算机网络/resource/网络层(一).md
+              - 数据链路层: course/计算机网络/resource/数据链路层.md
+              - 网络层(一): course/计算机网络/resource/网络层(一).md
       - 计算机网络实验:
-          - 导引: 计算机网络实验/Readme.md
+          - 导引: course/计算机网络实验/Readme.md
           - 在线习题:
-              - 测验2: 计算机网络实验/resource/测验2.md
+              - 测验2: course/计算机网络实验/resource/测验2.md
       - 数据库原理:
-          - 导引: 数据库原理/Readme.md
+          - 导引: course/数据库原理/Readme.md
   - Markdown扩展语法:
+      - 简介: example/Readme.md
       - 警告框语法: example/admonition.md
       - 代码块扩展语法: example/codehilite.md
       - 其他扩展语法: example/others.md
