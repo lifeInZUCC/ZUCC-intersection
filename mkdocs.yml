@@ -99,6 +99,11 @@ nav:
               - 测验2: course/计算机网络实验/resource/测验2.md
       - 数据库原理:
           - 导引: course/数据库原理/Readme.md
+  - PTA Solutions:
+      - 简介: pta/Readme.md
+      - 乙级考试练习:
+          - 题目索引: pta/乙级考试练习/index.md
+          - 1001 害死人不偿命的(3n+1)猜想: pta/乙级考试练习/1001.md
   - Markdown扩展语法:
       - 简介: example/Readme.md
       - 警告框语法: example/admonition.md
