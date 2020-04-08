@@ -88,6 +88,7 @@ nav:
           - 在线习题:
               - 周测3: course/操作系统原理/resource/周测3.md
               - 周测4: course/操作系统原理/resource/周测4.md
+              - 操作系统基本概念: course/操作系统原理/resource/操作系统基本概念.md
               - 进程概念: course/操作系统原理/resource/进程概念.md
       - 操作系统原理实验:
           - 导引: course/操作系统原理实验/Readme.md
