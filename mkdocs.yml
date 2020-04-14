@@ -102,6 +102,9 @@ nav:
           - 导引: course/计算机网络实验/Readme.md
           - 在线习题:
               - 测验2: course/计算机网络实验/resource/测验2.md
+              - 测验4: course/计算机网络实验/resource/测验4.md
+              - 测验5: course/计算机网络实验/resource/测验5.md
+              - 测验6: course/计算机网络实验/resource/测验6.md
               - 测验7: course/计算机网络实验/resource/测验7.md
       - 数据库原理:
           - 导引: course/数据库原理/Readme.md
