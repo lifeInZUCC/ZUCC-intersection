@@ -83,6 +83,8 @@ nav:
   - 关于本项目: about.md
   - ZUCC课程补全计划:
       - 简介: course/Readme.md
+      - 题目制作指南:
+        - Exercises Manager介绍: course/Exercises Manager/Readme.md
       - 操作系统原理:
           - 导引: course/操作系统原理/Readme.md
           - 在线习题:
@@ -107,6 +109,7 @@ nav:
               - 测验5: course/计算机网络实验/resource/测验5.md
               - 测验6: course/计算机网络实验/resource/测验6.md
               - 测验7: course/计算机网络实验/resource/测验7.md
+              - 测验8: course/计算机网络实验/resource/测验8.md
       - 数据库原理:
           - 导引: course/数据库原理/Readme.md
   - PTA Solutions:
