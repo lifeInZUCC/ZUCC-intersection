@@ -13,6 +13,7 @@
 |[周测3](resource/周测3.md)|
 |[周测4](resource/周测4.md)|
 |[周测7](resource/周测7.md)|
+|[周测9](resource/周测9.md)|
 
 |BB平台习题集|
 |-|
