@@ -123,6 +123,7 @@ nav:
       - 甲级考试练习:
           - 题目索引: pta/甲级考试练习/index.md
           - 1001: pta/甲级考试练习/1001.md
+          - 1002: pta/甲级考试练习/1002.md
   - Markdown扩展语法:
       - 简介: example/Readme.md
       - 警告框语法: example/admonition.md
