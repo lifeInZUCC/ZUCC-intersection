@@ -2,9 +2,7 @@
 
 ### 第一部分实验
 
-#### 工具
-
-Cisco Packet Tracer
+掌握Cisco Packet Tracer的使用
 
 #### 视频攻略
 
@@ -36,8 +34,13 @@ Cisco Packet Tracer
 
     [Lab6-1 路由器基本配置](https://www.bilibili.com/video/BV1nE411c7mL)
     
-    
     [Lab7-2 OSPF最短路径优先协议配置](https://www.bilibili.com/video/BV1VC4y1s78L)
 
 
 ### 第二部分实验
+
+掌握 Windows 常用网络和 Wireshark 的使用
+
+### 第三部分实验
+
+Java Socket编程

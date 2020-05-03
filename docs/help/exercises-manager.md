@@ -2,15 +2,22 @@ Exercises Manager是一个用于抓取网页中的习题，制作成Markdown格�
 
 由`ZUCC INTERSECTION`的管理员之一[nonlinearthink](https://github.com/nonlinearthink)维护，历史比`ZUCC INTERSECTION`还要久。
 
-在开始之前，请确保自己下载了chrome浏览器。
+这个项目基于 Node.js ，包括以下内容:
+- 一个chrome浏览器插件，用于从网页上爬取题目。
+- 一个本地的命令行工具，用于处理题目文件。
 
-## 克隆到本地
+## 安装说明
 
-```
-git clone https://github.com/nonlinearthink/exercises-manager --depth=1
-```
+1. 下载[Node.js](https://nodejs.org/zh-cn/download/)，注意安装的时候同时安装npm。
+2. 克隆仓库到本地:
+    ```
+    git clone https://github.com/nonlinearthink/exercises-manager --depth=1
+    ```
+3. 到本地的项目根目录下，运行`npm install`安装项目依赖。
 
-## 导入chrome插件
+## 使用说明
+
+## chrome插件
 
 在浏览器中打开链接[chrome://extensions/](chrome://extensions/)。
 

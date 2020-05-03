@@ -37,7 +37,10 @@ theme:
 # Plugins
 plugins:
   - search
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      type: iso_date
+  - minify:
+      minify_html: true
 
 # Customization
 extra:
@@ -54,6 +57,7 @@ markdown_extensions:
   - footnotes
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
+      linenums: false
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
@@ -112,6 +116,8 @@ nav:
               - 测验7: course/计算机网络实验/resource/测验7.md
               - 测验9: course/计算机网络实验/resource/测验9.md
               - 测验10: course/计算机网络实验/resource/测验10.md
+              - 测验11: course/计算机网络实验/resource/测验11.md
+              - 测验12: course/计算机网络实验/resource/测验12.md
       - 数据库原理:
           - 导引: course/数据库原理/Readme.md
   - PTA Solutions:
