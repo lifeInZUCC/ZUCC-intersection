@@ -6,13 +6,13 @@
 git clone https://github.com/lifeInZUCC/ZUCC-intersection --depth=1
 ```
 
-创建develop分支。
+创建 develop 分支。
 
 ```
 git branch develop
 ```
 
-切换到develop分支开发。
+切换到 develop 分支开发。
 
 ```
 git checkout develop
@@ -25,7 +25,7 @@ git add -A
 git commit -m "update xxx"
 ```
 
-切换和合并develop分支到master分支。
+切换和合并 develop 分支到 master 分支。
 
 ```
 git checkout master
@@ -38,14 +38,15 @@ git merge develop
 git push origin master
 ```
 
-删除develop分支。
+删除 develop 分支。
 
 ```
 git branch -d develop
 ```
 
 ## 其他贡献者
-到[github仓库地址](https://github.com/lifeInZUCC/ZUCC-intersection)，点击fork到自己的仓库中。
+
+到[github 仓库地址](https://github.com/lifeInZUCC/ZUCC-intersection)，点击 fork 到自己的仓库中。
 
 克隆自己的仓库
 
@@ -66,7 +67,7 @@ git commit -m "update xxx"
 git push origin master
 ```
 
-在github上给原始仓库提交合并请求。
+在 github 上给原始仓库提交合并请求。
 
 [官方教程](https://help.github.com/assets/images/help/repository/repo-tabs-pull-requests.png)
 

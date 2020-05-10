@@ -106,12 +106,6 @@ nav:
 
 ## 项目编译部署指南
 
-我们提供了一个脚本，叫做`build.sh`。
+我们提供了一个脚本，叫做`build.py`。
 
-这是一个shell脚本，但是windows的用户可能不能够直接跑起来，我推荐你们使用`Git Shell`。
-
-命令是:
-
-```shell
-sh build.sh
-```
+运行这个脚本，就可以编译到 lifeinzucc.github.io 的网站上了。

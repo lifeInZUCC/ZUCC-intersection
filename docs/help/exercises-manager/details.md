@@ -68,7 +68,7 @@ $ node clean -dov
 
 ### origin
 
-origin模式的文件应该以`.txt`结尾。同时还需要遵守一定的格式，例如:
+origin 模式的文件应该以`.txt`结尾。同时还需要遵守一定的格式，例如:
 
 单选题
 
@@ -110,32 +110,32 @@ A
 
 ### data
 
-data模式的文件应该以`.json`结尾。另外，里面的内容还需要满足一定的格式，例如：
+data 模式的文件应该以`.json`结尾。另外，里面的内容还需要满足一定的格式，例如：
 
 单选题
 
 ```json
 {
-	"title": "世界上最好的语言是什么?",
-	"choice": [
-		{
-			"option": "A",
-			"content": "PHP"
-		},
-		{
-			"option": "B",
-			"content": "Java"
-		},
-		{
-			"option": "C",
-			"content": "Javascript"
-		},
-		{
-			"option": "D",
-			"content": "C++"
-		}
-	],
-	"answer": "A"
+    "title": "世界上最好的语言是什么?",
+    "choice": [
+        {
+            "option": "A",
+            "content": "PHP"
+        },
+        {
+            "option": "B",
+            "content": "Java"
+        },
+        {
+            "option": "C",
+            "content": "Javascript"
+        },
+        {
+            "option": "D",
+            "content": "C++"
+        }
+    ],
+    "answer": "A"
 }
 ```
 
@@ -143,26 +143,26 @@ data模式的文件应该以`.json`结尾。另外，里面的内容还需要满
 
 ```json
 {
-	"title": "世界上最好的语言是什么?",
-	"choice": [
-		{
-			"option": "A",
-			"content": "PHP"
-		},
-		{
-			"option": "B",
-			"content": "Java"
-		},
-		{
-			"option": "C",
-			"content": "Javascript"
-		},
-		{
-			"option": "D",
-			"content": "C++"
-		}
-	],
-	"answer": "A B C D"
+    "title": "世界上最好的语言是什么?",
+    "choice": [
+        {
+            "option": "A",
+            "content": "PHP"
+        },
+        {
+            "option": "B",
+            "content": "Java"
+        },
+        {
+            "option": "C",
+            "content": "Javascript"
+        },
+        {
+            "option": "D",
+            "content": "C++"
+        }
+    ],
+    "answer": "A B C D"
 }
 ```
 
@@ -170,8 +170,8 @@ data模式的文件应该以`.json`结尾。另外，里面的内容还需要满
 
 ```json
 {
-	"title": "世界上最好的语言是什么?",
-	"answer": "PHP"
+    "title": "世界上最好的语言是什么?",
+    "answer": "PHP"
 }
 ```
 
@@ -179,18 +179,18 @@ data模式的文件应该以`.json`结尾。另外，里面的内容还需要满
 
 ```json
 {
-	"title": "世界上最好的语言是PHP吗?",
-	"choice": [
-		{
-			"option": "A",
-			"content": "T"
-		},
-		{
-			"option": "B",
-			"content": "F"
-		}
-	],
-	"answer": "A"
+    "title": "世界上最好的语言是PHP吗?",
+    "choice": [
+        {
+            "option": "A",
+            "content": "T"
+        },
+        {
+            "option": "B",
+            "content": "F"
+        }
+    ],
+    "answer": "A"
 }
 ```
 
@@ -198,7 +198,7 @@ data模式的文件应该以`.json`结尾。另外，里面的内容还需要满
 
 view 理论上只要是满足 Markdown 语法要求的列表就行了，一般我不推荐直接写 view .
 
-因为这样的 Markdown 写起来比较麻烦，相对来说 origin 格式的最容易编写，我推荐自己编写origin 格式。或者使用网页上爬取下来的 data 格式。
+因为这样的 Markdown 写起来比较麻烦，相对来说 origin 格式的最容易编写，我推荐自己编写 origin 格式。或者使用网页上爬取下来的 data 格式。
 
 然后把放到相应的目录下，运行 `npm start` 就可以在 data/view 目录下找到你的题目文件了。
 
@@ -228,7 +228,7 @@ exercises-manager 提供了非常多的可定制的配置。
 
 我们之前一直都说 origin 文件必须是 txt，data 文件必须是 json，view 文件必须是 md。
 
-其实，不然，修改template属性就可以。
+其实，不然，修改 template 属性就可以。
 
 ```json
 "origin": {
@@ -254,7 +254,7 @@ exercises-manager 提供了非常多的可定制的配置。
 
 不需要，可以把浏览器的默认下载路径放到 extra 属性里面。
 
-extra属性有两个可选的选项。file是单个文件的导入，dir是一个目录的导入。
+extra 属性有两个可选的选项。file 是单个文件的导入，dir 是一个目录的导入。
 
 例如，我习惯这样写:
 
@@ -267,13 +267,13 @@ extra属性有两个可选的选项。file是单个文件的导入，dir是一�
 }
 ```
 
-不同系统的路径肯定不一样，linux和mac应该都是这种风格的。
+不同系统的路径肯定不一样，linux 和 mac 应该都是这种风格的。
 
 windows 一般是 `C:\\Users\\jayceechow\\Downloads`。
 
 之所以有两个反斜杠是因为一个反斜杠一般是转义的意思。
 
-### 编写view样式
+### 编写 view 样式
 
 我们最终是把所有的内容都转换成 md 的，但是如果我们不想要默认的 md 格式怎么办，总不可能一个个去改，修改 viewformat 属性可以解决。
 
@@ -287,7 +287,7 @@ windows 一般是 `C:\\Users\\jayceechow\\Downloads`。
 
 ##### size
 
-size有三个可取值，small、middle、large。
+size 有三个可取值，small、middle、large。
 
 这个属性会改变最终显示的标题的文字大小，事实上这三个值分别对应了 md 的语法 `####` `###` `##`，也即是通过改变标题的级别来造成影响。
 
@@ -299,6 +299,6 @@ size有三个可取值，small、middle、large。
 
 ##### color
 
-正确答案会被标记，标记的颜色可以通过改变这个属性来完成，默认的是red。
+正确答案会被标记，标记的颜色可以通过改变这个属性来完成，默认的是 red。
 
-你需要了解HTML或者说CSS中颜色的设置格式。
+你需要了解 HTML 或者说 CSS 中颜色的设置格式。

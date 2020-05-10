@@ -1,6 +1,9 @@
 # 编译后的文件
-site/
+public/
 
-# vscode
-.vscode/
+# 隐藏文件
+.*
+!.git*
 
+# CodeRunner
+tempCodeRunnerFile*

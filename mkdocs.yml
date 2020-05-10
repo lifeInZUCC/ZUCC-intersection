@@ -6,7 +6,7 @@ site_url: https://lifeinzucc.github.io
 
 # mkdocs basic settings
 docs_dir: "docs"
-site_dir: "../lifeInZUCC.github.io"
+site_dir: "public"
 strict: true
 
 # Repository
