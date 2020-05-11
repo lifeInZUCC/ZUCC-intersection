@@ -17,7 +17,7 @@
 | [BB 教学平台]()                         | 单选、判断             |
 | [PTA](https://pintia.cn)                | 单选、判断             |
 
-可以到[github issue](https://github.com/nonlinearthink/Exercises-Manager/issues)提供你的建议。
+可以到[github issue](https://github.com/lifeInZUCC/Exercises-Manager/issues)提供你的建议。
 
 ## 安装说明
 
@@ -26,7 +26,7 @@
 1. 下载[Node.js](https://nodejs.org/zh-cn/download/)，**注意同时安装 npm**。
 2. 克隆 exercises-manager 到本地:
     ```
-    git clone https://github.com/nonlinearthink/Exercises-Manager --depth=1
+    git clone https://github.com/lifeInZUCC/Exercises-Manager --depth=1
     ```
 3. 如果已经安装了 npm，运行`npm install`安装项目依赖。
 

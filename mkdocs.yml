@@ -145,15 +145,18 @@ nav:
           - 1008: pta/甲级考试练习/1008.md
           - 1009: pta/甲级考试练习/1009.md
   - 开发者文档:
-      - 使用工具: help/tools.md
-      - git操作规范: help/git.md
-      - Exercises Manager: 
-          - 快速入门: help/exercises-manager/quickstart.md
-          - 深入了解命令行: help/exercises-manager/details.md
       - Markdown扩展语法:
           - 警告框语法: help/markdown/admonition.md
           - 代码块扩展语法: help/markdown/codehilite.md
           - 其他扩展语法: help/markdown/others.md
+      - 工具:
+          - git操作指南: help/tools/git.md
+          - 选择包管理器: help/tools/package-manager.md
+          - 文本编辑器: help/tools/vscode.md
+          - 命令行增强: help/tools/cli.md
+      - Exercises Manager: 
+          - 快速入门: help/exercises-manager/quickstart.md
+          - 深入了解命令行: help/exercises-manager/details.md
 
 # Google Analytics(incompleted)
 google_analytics:
