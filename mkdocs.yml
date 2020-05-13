@@ -100,6 +100,8 @@ nav:
               - 进程概念: course/操作系统原理/resource/进程概念.md
       - 操作系统原理实验:
           - 导引: course/操作系统原理实验/Readme.md
+          - 在线习题:
+              - 周测12: course/操作系统原理实验/week12.md
       - 计算机网络:
           - 导引: course/计算机网络/Readme.md
           - 在线习题:
@@ -108,6 +110,7 @@ nav:
               - 网络层(二): course/计算机网络/resource/网络层(二).md
               - 运输层(一): course/计算机网络/resource/运输层(一).md
               - 运输层(二): course/计算机网络/resource/运输层(二).md
+              - 应用层(一): course/计算机网络/resource/应用层(一).md
       - 计算机网络实验:
           - 导引: course/计算机网络实验/Readme.md
           - 在线习题:
