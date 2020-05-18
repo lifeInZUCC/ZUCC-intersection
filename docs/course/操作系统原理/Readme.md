@@ -15,6 +15,8 @@
 |[周测7](resource/周测7.md)|
 |[周测9](resource/周测9.md)|
 |[周测10](resource/周测10.md)|
+|[周测11](resource/周测11.md)|
+|[周测12](resource/周测12.md)|
 
 |BB平台习题集|
 |-|
