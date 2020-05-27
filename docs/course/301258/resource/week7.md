@@ -1,3 +1,5 @@
+## 死锁概念
+
 ### 1.系统产生死锁是指（）。
 |编号|选项|
 |:-|:-|
@@ -34,13 +36,15 @@
 |A|对|
 |<font color="red">B|<font color="red">错|
 
-### 6.当同时需要用两个互斥信号量时，总是让它们以交错的顺序加锁，以避免死锁。
+## 死锁避免和检测
+
+### 1.当同时需要用两个互斥信号量时，总是让它们以交错的顺序加锁，以避免死锁。
 |编号|选项|
 |:-|:-|
 |A|对|
 |<font color="red">B|<font color="red">错|
 
-### 7.Banker's algorithm is one of __ algorithm.
+### 2.Banker's algorithm is one of __ algorithm.
 |编号|选项|
 |:-|:-|
 |A|deadlock recovery死锁恢复|
@@ -48,7 +52,7 @@
 |C|deadlock prevention死锁预防|
 |D|deadlock detection死锁检测|
 
-### 8.How does the Linux system deal with the deadlock?
+### 3.How does the Linux system deal with the deadlock?
 |编号|选项|
 |:-|:-|
 |A|By deadlock prevention死锁预防|
@@ -56,7 +60,7 @@
 |C|By deadlock detection死锁检测|
 |<font color="red">D|<font color="red">Do nothing|
 
-### 9.If system use the banker's algorithm to avoid deadlock, which of the statement is correct?
+### 4.If system use the banker's algorithm to avoid deadlock, which of the statement is correct?
 |编号|选项|
 |:-|:-|
 |A|If the system is in an unsafe state, it must cause a deadlock.|
@@ -64,7 +68,7 @@
 |C|If the system is in a safe state, it may cause a deadlock.|
 |D|If the system is in a safe state, it must cause a deadlock.|
 
-### 10.There are N processes which share M mutual exclusive resources, each process can hold W resources at most. Which of the following condition may cause a deadlock?
+### 5.There are N processes which share M mutual exclusive resources, each process can hold W resources at most. Which of the following condition may cause a deadlock?
 |编号|选项|
 |:-|:-|
 |A|M=2, N=1, W=2|

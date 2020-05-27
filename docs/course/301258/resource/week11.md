@@ -1,3 +1,5 @@
+## 知识回顾
+
 ### 1.在分页时，每个进程拥有一个页表，且页表驻留在内存中。
 |编号|选项|
 |:-|:-|
@@ -70,7 +72,9 @@
 |C|to increase the number of running processes|
 |<font color="red">D|<font color="red">to increase physical memory capacity via increasing memory chips|
 
-### 11.虚拟存储器的最大容量（）。
+## 缺页中断和页面替换
+
+### 1.虚拟存储器的最大容量（）。
 |编号|选项|
 |:-|:-|
 |A|由作业的地址空间决定|
@@ -78,7 +82,7 @@
 |<font color="red">C|<font color="red">由计算机的地址结构决定的|
 |D|为内、外容量之和|
 
-### 12.进程在执行中发生了缺页中断，经操作系统处理后，应让其执行（）指令。
+### 2.进程在执行中发生了缺页中断，经操作系统处理后，应让其执行（）指令。
 |编号|选项|
 |:-|:-|
 |<font color="red">A|<font color="red">被中断的那一条|
@@ -86,7 +90,7 @@
 |C|启动时的那一条|
 |D|被中断的前一条|
 
-### 13.考虑页面置换算法，系统有m个物理块供调度，初始时全空，页面引用串长度为p，包含了n个不同的页号，无论用什么算法，缺页次数不会少于（）。
+### 3.考虑页面置换算法，系统有m个物理块供调度，初始时全空，页面引用串长度为p，包含了n个不同的页号，无论用什么算法，缺页次数不会少于（）。
 |编号|选项|
 |:-|:-|
 |A|min(m, n)|
@@ -94,7 +98,7 @@
 |C|m|
 |D|p|
 
-### 14.In a demanding paging system, the size of a page is 4KB. A process access the logical address 12345(0x3039)will ___ if the page table is as the following:
+### 4.In a demanding paging system, the size of a page is 4KB. A process access the logical address 12345(0x3039)will ___ if the page table is as the following:
 
 |Page | Frame | Vaildity|
 |:-|:-|:-|
@@ -110,7 +114,7 @@
 |C|access physical address 2*4096+57|
 |<font color="red">D|<font color="red">cause a page-fault interrupt|
 
-### 15.在请求分页系统中，若逻辑地址中的页号超过页表寄存器中的页表长度，则会引起（）。
+### 5.在请求分页系统中，若逻辑地址中的页号超过页表寄存器中的页表长度，则会引起（）。
 |编号|选项|
 |:-|:-|
 |A|输入输出中断|
@@ -118,7 +122,7 @@
 |<font color="red">C|<font color="red">越界中断|
 |D|缺页中断|
 
-### 16.With the demanding paging,__has best system performance.
+### 6.With the demanding paging,__has best system performance.
 |编号|选项|
 |:-|:-|
 |<font color="red">A|<font color="red">stacks|

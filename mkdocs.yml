@@ -88,22 +88,28 @@ nav:
   - ZUCC课程补全计划:
       - 简介: course/Readme.md
       - 操作系统原理:
-          - 导引: course/操作系统原理/Readme.md
-          - 在线习题:
-              - 周测3: course/操作系统原理/resource/周测3.md
-              - 周测4: course/操作系统原理/resource/周测4.md
-              - 周测7: course/操作系统原理/resource/周测7.md
-              - 周测9: course/操作系统原理/resource/周测9.md
-              - 周测10: course/操作系统原理/resource/周测10.md
-              - 周测11: course/操作系统原理/resource/周测11.md
-              - 周测12: course/操作系统原理/resource/周测12.md
-              - 周测13: course/操作系统原理/resource/周测13.md
-              - 操作系统基本概念: course/操作系统原理/resource/操作系统基本概念.md
-              - 进程概念: course/操作系统原理/resource/进程概念.md
+          - 导引: course/301258/Readme.md
+          - 周测习题集:
+              - 第一周: course/301258/resource/week1.md
+              - 第二周: course/301258/resource/week2.md
+              - 第三周: course/301258/resource/week3.md
+              - 第四周: course/301258/resource/week4.md
+              - 第五周: course/301258/resource/week5.md
+              - 第六周: course/301258/resource/week6.md
+              - 第七周: course/301258/resource/week7.md
+              - 第九周: course/301258/resource/week9.md
+              - 第十周: course/301258/resource/week10.md
+              - 第十一周: course/301258/resource/week11.md
+              - 第十二周: course/301258/resource/week12.md
+              - 第十三周: course/301258/resource/week13.md
+          - BB平台习题集:
+              - 操作系统基本概念: course/301258/resource/os-basic-concepts.md
+              - 进程概念: course/301258/resource/process-concept.md
       - 操作系统原理实验:
           - 导引: course/操作系统原理实验/Readme.md
           - 在线习题:
               - 周测12: course/操作系统原理实验/week12.md
+              - 周测13: course/操作系统原理实验/week13.md
       - 计算机网络:
           - 导引: course/计算机网络/Readme.md
           - 在线习题:
@@ -113,6 +119,7 @@ nav:
               - 运输层(一): course/计算机网络/resource/运输层(一).md
               - 运输层(二): course/计算机网络/resource/运输层(二).md
               - 应用层(一): course/计算机网络/resource/应用层(一).md
+              - 应用层(二): course/计算机网络/resource/应用层(二).md
       - 计算机网络实验:
           - 导引: course/计算机网络实验/Readme.md
           - 在线习题:
