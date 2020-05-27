@@ -3,12 +3,14 @@
 ### 1.线程是调度的基的基本单位，但不是资源分配的基本单位。
 | 选项||  
 |--|--|
-|<font color="#FF0000">F|T|
+|<font color="#FF0000">A|<font color="#FF0000">F|
+|B|T|
 
 ### 2.隶属于同一进程的多个线程共享一组CPU寄存器值，并共享一个堆栈。
 |选项||
 |--|--|
-|T| <font color="#FF0000">F|
+|A|T|
+|<font color="#FF0000">B|<font color="#FF0000">F|
 
 ### 3.A thread is also called______.
 || 选项|  
@@ -29,7 +31,8 @@ D|Open file descriptors|
 ### 5.用户级线程不依赖于内核。
 |选项||
 |--|--|
-|<font color="#FF0000">T| F|
+|<font color="#FF0000">A|<font color="#FF0000">F|
+|B|T|
 
 ## 进程并发
 
@@ -44,7 +47,8 @@ D|在时间上相互无关|
 ### 2.单处理机上可以并发执行多个程序。
 |选项||
 |--|--|
-|<font color="#FF0000">T| F|
+|<font color="#FF0000">A|<font color="#FF0000">F|
+|B|T|
 
 ### 3.以下()是程序并发执行的特点。
 || 选项|  
@@ -75,17 +79,20 @@ D|执行了相同的程序|
 ### 1.对临界资源，应采用互斥访问方式来实现共享。
 |选项||
 |--|--|
-|<font color="#FF0000">T| F|
+|<font color="#FF0000">A|<font color="#FF0000">F|
+|B|T|
 
 ### 2.一次仅允许一个进程使用的资源叫临界资源，所以对临界资源是不能实现共享的。
 |选项||
 |--|--|
-|T| <font color="#FF0000">F|
+|A|T|
+|<font color="#FF0000">B|<font color="#FF0000">F|
 
 ### 3.即便线程不作为资源分配单位，线程之间仍可能因为竞争影响并行执行。
 |选项||
 |--|--|
-|<font color="#FF0000">T| F|
+|<font color="#FF0000">A|<font color="#FF0000">F|
+|B|T|
 
 ### 4.The cititcal section of a concurrent process is__.
 || 选项|  
