@@ -1,6 +1,6 @@
 import os
 os.system(
-    'git clone hhttps://github.com/lifeInZUCC/lifeInZUCC.github.io public --depth=1'
+    'git clone https://github.com/lifeInZUCC/lifeInZUCC.github.io public --depth=1'
 )
 os.system('mkdocs build --clean')
 if os.path.exists('public'):
