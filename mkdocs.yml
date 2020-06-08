@@ -106,13 +106,13 @@ nav:
           - BB平台习题集:
               - 操作系统基本概念: course/301258/resource/os-basic-concepts.md
               - 进程概念: course/301258/resource/process-concept.md
-          - PTA练习题:
-              - 模拟测验: course/301258/resource/mock.md
+              - 进程同步: course/301258/resource/synchronization.md
       - 操作系统原理实验:
           - 导引: course/操作系统原理实验/Readme.md
           - 在线习题:
               - 周测12: course/操作系统原理实验/week12.md
               - 周测13: course/操作系统原理实验/week13.md
+          - 模拟考试: course/操作系统原理实验/mock.md
       - 计算机网络:
           - 导引: course/计算机网络/Readme.md
           - 在线习题:
