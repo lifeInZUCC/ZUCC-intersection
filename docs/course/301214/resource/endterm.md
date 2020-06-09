@@ -141,9 +141,8 @@ LORAMYSUMMERHOLIDAYISCOMMING
 |:-|:-|
 |A|仅Ⅰ和Ⅱ|
 |B|仅Ⅲ|
-|<font color="red">C</font>|<font color="red">仅Ⅲ和Ⅳ</font>|
-|D|仅Ⅳ|
-<font color="red">不知道错在哪，我觉得就是C。</font>
+|C|仅Ⅲ和Ⅳ|
+|<font color="red">D</font>|<font color="red">仅Ⅳ</font>|
 
 
 ### 13.采用虚电路分组交换方式时，可以省去的阶段是________。

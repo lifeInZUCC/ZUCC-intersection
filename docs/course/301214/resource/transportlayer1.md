@@ -157,4 +157,3 @@
 |<font color="red">B|<font color="red">运输层|
 |C|网际层|
 |D|网络接口层|
-
