@@ -1,10 +1,22 @@
-## 实验清单
+# 计算机网络实验
 
-### 第一部分实验
+**课程代码**: 301215
 
-掌握Cisco Packet Tracer的使用
+**课程名称**: 计算机网络实验
 
-#### 视频攻略
+**学分**: 1.0
+
+**开课学院**: 计算机与计算科学学院
+
+**教材**: 无
+
+## Cisco Packet Tracer 视频攻略。
+
+以下视频是一个学长制作的，只包括部分实验，未包括的内容:
+
+- 双绞线制作
+- Windows 网络命令
+- Java Socket 编程
 
 !!! example "BiliBili"
 
@@ -35,12 +47,3 @@
     [Lab6-1 路由器基本配置](https://www.bilibili.com/video/BV1nE411c7mL)
     
     [Lab7-2 OSPF最短路径优先协议配置](https://www.bilibili.com/video/BV1VC4y1s78L)
-
-
-### 第二部分实验
-
-掌握 Windows 常用网络和 Wireshark 的使用
-
-### 第三部分实验
-
-Java Socket编程

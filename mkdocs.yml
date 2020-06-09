@@ -115,30 +115,34 @@ nav:
               - 周测13: course/操作系统原理实验/week13.md
           - 模拟考试: course/操作系统原理实验/mock.md
       - 计算机网络:
-          - 导引: course/计算机网络/Readme.md
-          - 在线习题:
-              - 数据链路层: course/计算机网络/resource/数据链路层.md
-              - 网络层(一): course/计算机网络/resource/网络层(一).md
-              - 网络层(二): course/计算机网络/resource/网络层(二).md
-              - 运输层(一): course/计算机网络/resource/运输层(一).md
-              - 运输层(二): course/计算机网络/resource/运输层(二).md
-              - 应用层(一): course/计算机网络/resource/应用层(一).md
-              - 应用层(二): course/计算机网络/resource/应用层(二).md
-              - 网络安全: course/计算机网络/resource/网络安全.md
+          - 导引: course/301214/Readme.md
+          - 单元测验:
+              - 数据链路层: course/301214/resource/datalinklayer.md
+              - 网络层(一): course/301214/resource/networklayer1.md
+              - 网络层(二): course/301214/resource/networklayer2.md
+              - 运输层(一): course/301214/resource/transportlayer1.md
+              - 运输层(二): course/301214/resource/transportlayer2.md
+              - 应用层(一): course/301214/resource/applicationlayer1.md
+              - 应用层(二): course/301214/resource/applicationlayer2.md
+              - 网络安全: course/301214/resource/networksecurity.md
+          - 期中期末:
+              - 期中测验模拟: course/301214/resource/middleterm.md
+              - 期末测验模拟: course/301214/resource/endterm.md
       - 计算机网络实验:
-          - 导引: course/计算机网络实验/Readme.md
+          - 导引: course/301215/Readme.md
           - 在线习题:
-              - 测验2: course/计算机网络实验/resource/测验2.md
-              - 测验4: course/计算机网络实验/resource/测验4.md
-              - 测验5: course/计算机网络实验/resource/测验5.md
-              - 测验6: course/计算机网络实验/resource/测验6.md
-              - 测验7: course/计算机网络实验/resource/测验7.md
-              - 测验9: course/计算机网络实验/resource/测验9.md
-              - 测验10: course/计算机网络实验/resource/测验10.md
-              - 测验11: course/计算机网络实验/resource/测验11.md
-              - 测验12: course/计算机网络实验/resource/测验12.md
-              - 测验13: course/计算机网络实验/resource/测验13.md
-              - 测验15: course/计算机网络实验/resource/测验15.md
+              - 测验1: course/301215/resource/test1.md
+              - 测验2: course/301215/resource/test2.md
+              - 测验4: course/301215/resource/test4.md
+              - 测验5: course/301215/resource/test5.md
+              - 测验6: course/301215/resource/test6.md
+              - 测验7: course/301215/resource/test7.md
+              - 测验9: course/301215/resource/test9.md
+              - 测验10: course/301215/resource/test10.md
+              - 测验11: course/301215/resource/test11.md
+              - 测验12: course/301215/resource/test12.md
+              - 测验13: course/301215/resource/test13.md
+              - 测验15: course/301215/resource/test15.md
       - 数据库原理:
           - 导引: course/数据库原理/Readme.md
   - PTA Solutions:
