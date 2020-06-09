@@ -1,15 +1,15 @@
-作为一位深度 VSCode 用户，我强烈推荐把 VSCode 作为电脑上所有文本的编辑器。
+作为一位深度 VSCode 用户，我强烈推荐把 VSCode 作为电脑上所有代码的编辑器。
 
 [vscode 下载链接](https://code.visualstudio.com/)
 
-就本项目的编辑而言，推荐的插件有:
+就本项目的编辑而言，推荐安装的插件有:
 
 -   两款美化插件`One Dark Pro`+`Material Icon Theme`。
--   一款 Markdown 扩展`Markdown All in One`，支持一些语法。
+-   一款 Markdown 扩展`Markdown All in One`，支持一些语法。（必装）
 -   一款 Markdown 格式化工具，准确来说是基本支持所有语言了，叫`Pretter`。
 -   项目管理插件`Project Manager`。把自己的项目保存在这里，下次打开编辑器就可以直接找到了。
 
-关于 vscode 的 markdown 编辑工作，我给一个我自己的配置。
+关于 vscode 的 markdown 编辑工作，我给一个我自己的配置。但是不是必须的，就算不配置也够用，只是个人习惯和开发效率问题。
 
 ```json
 /* 全局配置 */

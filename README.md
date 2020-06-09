@@ -50,6 +50,8 @@ mkdocs serve
 
 ### docker快速运行指南
 
+未来可能支持，目前正在做了，但是我课程太多了，暑假再说。
+
 #### 拷贝docker镜像
 
 ```shell
