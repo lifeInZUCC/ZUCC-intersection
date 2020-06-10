@@ -8,7 +8,6 @@ SMTP
 ```
 1518
 ```
-<font color="red">我原先是1500，错了，不确定这个答案对不对。</font>
 
 ### 3.在Windows系统中显示ARP缓存表内容的命令加参数是__________。
 ```
@@ -22,7 +21,6 @@ arp -a
 ```
 加密算法
 ```
-<font color="red">估计正确答案差不多意思，但也不确定。</font>
 
 ### 6.在TCP/IP协议中，实现路由选择功能的层次是_________。
 ```
@@ -42,9 +40,8 @@ arp -a
 ```
 ### 10.易位密码法的密钥是LORA，加密后的密文为AURIIMGLMMHDSMOYMOACIRSELYON，则明文为___________________。
 ```
-LORAMYSUMMERHOLIDAYISCOMMING
+MYSUMMERHOLIDAYISCOMMING
 ```
-<font color="red">我验算了好几遍，不知道哪里算错了，这是我错的答案。</font>
 
 ## 判断题
 
