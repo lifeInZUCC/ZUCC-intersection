@@ -84,7 +84,7 @@ extra_javascript:
 nav:
   - 简介: index.md
   - 我们的故事: log.md
-  - 联系我们: about.md
+  - 关于我们的组织: about.md
   - ZUCC课程补全计划:
       - 简介: course/Readme.md
       - 操作系统原理:
@@ -108,12 +108,16 @@ nav:
               - 操作系统基本概念: course/301258/resource/os-basic-concepts.md
               - 进程概念: course/301258/resource/process-concept.md
               - 进程同步: course/301258/resource/synchronization.md
+              - 存储管理: course/301258/resource/memorymanagement.md
+              - 设备和文件管理: course/301258/resource/deviceandfilesystem.md
       - 操作系统原理实验:
-          - 导引: course/操作系统原理实验/Readme.md
-          - 在线习题:
-              - 周测12: course/操作系统原理实验/week12.md
-              - 周测13: course/操作系统原理实验/week13.md
-          - 模拟考试: course/操作系统原理实验/mock.md
+          - 导引: course/301259/Readme.md
+          - 周测习题集:
+              - 周测6: course/301259/resource/week6.md
+              - 周测11: course/301259/resource/week11.md
+              - 周测12: course/301259/resource/week12.md
+              - 周测13: course/301259/resource/week13.md
+          - 模拟考试: course/301259/resource/mock.md
       - 计算机网络:
           - 导引: course/301214/Readme.md
           - 单元测验:
@@ -144,7 +148,7 @@ nav:
               - 测验13: course/301215/resource/test13.md
               - 测验15: course/301215/resource/test15.md
       - 数据库原理:
-          - 导引: course/数据库原理/Readme.md
+          - 导引: course/301102/Readme.md
   - PTA Solutions:
       - 简介: pta/Readme.md
       - 乙级考试练习:
