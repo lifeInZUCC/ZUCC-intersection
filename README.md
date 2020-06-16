@@ -22,23 +22,23 @@
 
 **这个仓库可能不会很快建成，我们的确非常需要你的帮助，请把你在日常生活和学习中搜集的资源发到我们的平台。**
 
-## 项目安装指南
-我们提供两种快速安装运行的方案：
-- pip
-- docker
+## 入门指南
 
-### pip快速运行指南
+### python/pip 环境安装
 
-#### 搭建python环境
-首先要**确定的python能够正常工作**。
+根据自己的操作系统安装 python/pip 环境。
 
-如果没问题那么就：
+macOS 和 Linux，一般默认 python命令行 是链接到 python2.x 上去的，对于这两个操作系统来说，以下所有的操作都要换成 python3/pip3。
+
+安装 mkdocs 运行依赖
 
 ```shell
 pip install -r requirements.txt
 ```
 
-#### 运行
+> 其中包括一个 mkdocs 的命令行程序。接下来你可以使用 mkdocs 命令行了。
+
+### 运行
 
 ```shell
 mkdocs serve
@@ -46,67 +46,35 @@ mkdocs serve
 
 然后在浏览器中输入地址: [http://localhost:8000/](http://localhost:8000/)
 
----
+### 更改/添加内容
 
-### docker快速运行指南
+##### 学习markdown
 
-未来可能支持，目前正在做了，但是我课程太多了，暑假再说。
+首先，你需要会markdown，非常容易，网上教程翻一眼就好了。
 
-#### 拷贝docker镜像
+除了用了标准的markdown格式，我们还自己用了一些非常酷炫的扩展语法，我们认为可以有效提高文档的观感，所以配置了一下。具体可以看我们网站上的[教程](https://lifeinzucc.github.io/example/admonition/)。
 
-```shell
-docker pull squidfunk/mkdocs-material
-```
+##### 编写markdown和添加界面
 
-#### 在docker中运行
+在项目的`docs`及其子目录下面创建`.md`结尾的文件。
 
-##### linux/mac
-
-```shell
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs
-```
-
-##### windows
-
-```powershell
-docker run --rm -it -p 8000:8000 -v %cd%:/docs
-```
-
-最后在浏览器输入地址：[http://localhost:8000/](http://localhost:8000/)
-
----
-
-## 更改/添加内容
-### 学习markdown
-首先，你需要会markdown，这是一种文件编辑的格式，它可以方便地给文档做一些标记，以形成一定的显示效果。
-
-我们的项目除了用了标准的markdown格式，还用了一些非常酷炫的扩展语法，可以有效提高文档的质量。具体可以看我们网站上的[教程](https://lifeinzucc.github.io/example/admonition/)。
-
-在项目的`docs`目录下面创建`.md`结尾的文件，然后编辑你要添加的文档，最后它会被编译成HTML。你可以对照一下我们的docs源代码和[网站](https://lifeinzucc.github.io)上显示的内容就会明白怎么回事。
-
-### 添加页面到配置文件
-
-对不起，我们暂时没有什么好方法来自动化这一过程，在完成上面的步骤之后，你也许会发现，似乎并没有新的页面添加到网页中。
-
-事实上需要到`mkdocs.yml`文件中，找到一个`nav`那一栏，例如:
+目前没办法做到自动化，我们需要到`mkdocs.yml`文件中，找到一个`nav`那一栏。
 
 ```yaml
+# Page tree
 nav:
-    - 简介: index.md
-    - 关于本项目: about.md
-    - Markdown扩展语法:
-          - "警告框语法": "example/admonition.md"
-          - "代码块扩展语法": "example/codehilite.md"
-          - "其他扩展语法": "example/others.md"
+  - 简介: index.md
+  - 我们的故事: log.md
+  - 关于我们的组织: about.md
+  - ZUCC课程补全计划:
+      - 简介: course/Readme.md
 ```
 
-上面的代码的意思就是绑定导航栏和你的源文件，例如第一级是由三个界面`简介` `关于本项目` `Markdown扩展语法`三个部分组成的，冒号后面的内容是源文件，冒号前面的内容是最后显示的网页名称。
+以`docs`为根目录，把相对地址写到 nav 的配置里面，冒号前面的是界面的名称，后面是地址。
 
-除了第一级目录还可以有第二级、第三级等等，可以有多级目录。
+理论上来讲目录结构是多级的，可以无限扩展下去，但是我们也没做过测试。
 
-项目的首页是名为`index.md`的文件对应的网页，所以在这里首页就是`简介`页。
-
-## 项目编译部署指南
+### 项目编译部署指南
 
 我们提供了一个脚本，叫做`build.py`。
 
