@@ -47,6 +47,26 @@
 |D|数据段|
 
 ### 3.下述代码运行后，共产生（  )个进程，输出（  ）个字符‘a' 。
+
+```c
+#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+
+int main()
+{
+	int i;
+	for(i = 0; i < 2; i++)
+	{
+		fork();
+		printf("a");
+	}
+	wait(NULL);
+	wait(NULL);
+	return 0;
+}
+```
+
 |编号|选项|
 |:-|:-|
 |A|2，2|

@@ -8,8 +8,9 @@
 
 **开课学院**: 计算机与计算科学学院
 
-**学长的课外书单**:
+**推荐的课外书单**:
 
 |书籍|作者|
 |-|-|
-|[Linux 系统编程手册](https://book.douban.com/subject/25809330/)|`Michael Kerrisk`|
+|[Linux/UNIX 系统编程手册](https://book.douban.com/subject/25809330/)|`Michael Kerrisk`|
+|[Linux设备驱动程序](https://book.douban.com/subject/1723151/)|`Jonahan Corbet`|
