@@ -64,7 +64,16 @@
 |A|对|
 |<font color="red">B|<font color="red">错|
 
-### 10.Consider a demand-paging system with the following time-measured utilizations:CPU utilization 20% Paging disk 97.7% Other I/O devices 5% Which (if any) of the following will (probably) improve CPU utilization?
+### 10.Consider a demand-paging system with the following time-measured utilizations:
+
+```
+CPU utilization 20%
+Paging disk 97.7%
+Other I/O devices 5%
+```
+
+Which (if any) of the following will (probably) improve CPU utilization?
+
 |编号|选项|
 |:-|:-|
 |A|to install a faster hard disk|
@@ -100,12 +109,13 @@
 
 ### 4.In a demanding paging system, the size of a page is 4KB. A process access the logical address 12345(0x3039)will ___ if the page table is as the following:
 
-|Page | Frame | Vaildity|
-|:-|:-|:-|
-|0|3|v|
-|1|4|v|
-|2|2|v|
-|3|-|i|
+```
+Page#  Frame#  Vaildity
+0      3       v
+1      4       v
+2      2       v
+3      -       i
+```
 
 |编号|选项|
 |:-|:-|

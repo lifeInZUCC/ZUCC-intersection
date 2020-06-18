@@ -99,8 +99,8 @@
 |:-|:-|
 |A|电梯|
 |B|单向扫描|
-|C|最短寻找时间优先|
-|<font color="red">D</font>|<font color="red">先来先服务</font>|
+|<font color="red">C</font>|<font color="red">最短寻找时间优先</font>|
+|D|先来先服务|
 
 ### 14.系统为了管理文件,设置了专门的数据结构--文件控制块(FCB)。FCB是在执行下列()系统调用时建立的。
 |编号|选项|

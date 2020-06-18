@@ -65,8 +65,8 @@
 ### 9.设三个目标模块A、B、C，起始地址都是O，长度分别是L、M、N，这三个模块按A、B、C顺序采用静态链接方式链接在一起后，模块C的起始地址变换为()。
 |编号|选项|
 |:-|:-|
-|<font color="red">A</font>|<font color="red">L+M-1</font>|
-|B|L+M|
+|A|L+M-1|
+|<font color="red">B</font>|<font color="red">L+M</font>|
 |C|L+M+N|
 |D|M+N|
 
