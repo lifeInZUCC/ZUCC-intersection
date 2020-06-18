@@ -14,3 +14,9 @@
 |-|-|
 |[Linux/UNIX 系统编程手册](https://book.douban.com/subject/25809330/)|`Michael Kerrisk`|
 |[Linux设备驱动程序](https://book.douban.com/subject/1723151/)|`Jonahan Corbet`|
+
+!!! abstract "资源空间"
+    [链接: https://pan.baidu.com/s/1eP80nXAL4QzaiiELprqhLg](https://pan.baidu.com/s/1eP80nXAL4QzaiiELprqhLg) by heart huang
+        
+    密码: hdlk
+
