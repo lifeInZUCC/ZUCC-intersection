@@ -121,17 +121,17 @@ nav:
       - 计算机网络:
           - 导引: course/301214/Readme.md
           - 单元测验:
-              - 数据链路层: course/301214/resource/datalinklayer.md
-              - 网络层(一): course/301214/resource/networklayer1.md
-              - 网络层(二): course/301214/resource/networklayer2.md
-              - 运输层(一): course/301214/resource/transportlayer1.md
-              - 运输层(二): course/301214/resource/transportlayer2.md
-              - 应用层(一): course/301214/resource/applicationlayer1.md
-              - 应用层(二): course/301214/resource/applicationlayer2.md
-              - 网络安全: course/301214/resource/networksecurity.md
+              - 数据链路层(二): course/301214/resource/datalink-layer-2.md
+              - 网络层(一): course/301214/resource/network-layer-1.md
+              - 网络层(二): course/301214/resource/network-layer-2.md
+              - 运输层(一): course/301214/resource/transport-layer-1.md
+              - 运输层(二): course/301214/resource/transport-layer-2.md
+              - 应用层(一): course/301214/resource/application-layer-1.md
+              - 应用层(二): course/301214/resource/application-layer-2.md
+              - 网络安全: course/301214/resource/network-security.md
           - 期中期末:
-              - 期中测验模拟: course/301214/resource/middleterm.md
-              - 期末测验模拟: course/301214/resource/endterm.md
+              - 期中测验模拟: course/301214/resource/middleterm-mock.md
+              - 期末测验模拟: course/301214/resource/endterm-mock.md
       - 计算机网络实验:
           - 导引: course/301215/Readme.md
           - 在线习题:

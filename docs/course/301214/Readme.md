@@ -10,9 +10,16 @@
 
 **教材**: 计算机网络 第7版 (谢希仁)
 
-### 课程资料
-|名称|资源链接|
+**推荐的课外书单**:
+
+|书籍|作者|
 |-|-|
-|电子版教材|[百度网盘](https://pan.baidu.com/s/1IU3gbYQ5pVQiDRHCmmZHsQ) 密码:e7a3|
-|教材配套PPT|[百度网盘](https://pan.baidu.com/s/1c0UNMQrBR3LCnel9uAyW0w) 密码:zxk2|
-|课程PPT|[百度网盘](https://pan.baidu.com/s/1P6F51YC-8mz29ElQpFQeyA) 密码:u1ng|
+|[计算机网络 自顶向下方法](https://book.douban.com/subject/30280001/)|`James F. Kurose` & `Keith W. Ross`|
+|[计算机网络](https://book.douban.com/subject/10510747/)|`Andrew S. Tanenbaum` & `David J. Wetherall`|
+
+!!! abstract "资源空间"
+    [链接: https://pan.baidu.com/s/1dj_mwcBFihh6CdJ20VKYfQ](https://pan.baidu.com/s/1dj_mwcBFihh6CdJ20VKYfQ)
+        
+    密码: pgzh
+
+**我们正在征求早期的一些题库。包括: 概述、物理层、数据链路层的部分题库。**
