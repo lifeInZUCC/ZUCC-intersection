@@ -176,15 +176,18 @@ nav:
           - 警告框语法: help/markdown/admonition.md
           - 代码块扩展语法: help/markdown/codehilite.md
           - 其他扩展语法: help/markdown/others.md
-      - 开发工具:
+      - Git简介与使用规范:
+          - 基本概念: help/git/concepts.md
+          - Git实战（基础篇）: help/git/in-action-basic.md
+          - Git实战（分支篇）: help/git/in-action-branch.md
+      - 其他开发工具:
           - python管理项目: help/tools/python.md
-          - git操作指南: help/tools/git.md
           - 文本编辑器: help/tools/vscode.md
           - 使用包管理器(可选): help/tools/package-manager.md
           - 命令行自动补全(可选): help/tools/cli.md
-          - 题目制作器:
-              - 快速入门: help/exercises-manager/quickstart.md
-              - 深入了解命令行: help/exercises-manager/details.md
+      - 题目制作器:
+          - 快速入门: help/exercises-manager/quickstart.md
+          - 深入了解命令行: help/exercises-manager/details.md
 
 # Google Analytics(incompleted)
 google_analytics:
