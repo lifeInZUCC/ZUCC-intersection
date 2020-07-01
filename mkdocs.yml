@@ -110,6 +110,8 @@ nav:
               - 进程同步: course/301258/resource/synchronization.md
               - 存储管理: course/301258/resource/memorymanagement.md
               - 设备和文件管理: course/301258/resource/deviceandfilesystem.md
+          - 经验分享:
+              - 真题回忆: course/301258/resource/ex_by_heart.md
       - 操作系统原理实验:
           - 导引: course/301259/Readme.md
           - 周测习题集:
@@ -141,6 +143,8 @@ nav:
           - 期中期末:
               - 期中测验模拟: course/301214/resource/middleterm-mock.md
               - 期末测验模拟: course/301214/resource/endterm-mock.md
+          - 经验分享:
+              - 真题回忆: course/301214/resource/ex_by_heart.md
       - 计算机网络实验:
           - 导引: course/301215/Readme.md
           - 在线习题:
