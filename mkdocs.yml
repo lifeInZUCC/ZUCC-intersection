@@ -113,7 +113,16 @@ nav:
       - 操作系统原理实验:
           - 导引: course/301259/Readme.md
           - 周测习题集:
+              - 周测1: course/301259/resource/week1.md
+              - 周测2: course/301259/resource/week2.md
+              - 周测3: course/301259/resource/week3.md
+              - 周测4: course/301259/resource/week4.md
+              - 周测5: course/301259/resource/week5.md
               - 周测6: course/301259/resource/week6.md
+              - 周测7: course/301259/resource/week7.md
+              - 周测8: course/301259/resource/week8.md
+              - 周测9: course/301259/resource/week9.md
+              - 周测10: course/301259/resource/week10.md
               - 周测11: course/301259/resource/week11.md
               - 周测12: course/301259/resource/week12.md
               - 周测13: course/301259/resource/week13.md
