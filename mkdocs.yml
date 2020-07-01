@@ -162,6 +162,14 @@ nav:
               - 测验15: course/301215/resource/test15.md
       - 数据库原理:
           - 导引: course/301102/Readme.md
+      - 大学英语:
+          - 导引: course/eng/Readme.md
+          - 经验分享: 
+            - 大学英语建议: course/eng/resource/ex_by_heart.md
+      - 体育课:
+          - 导引: course/spt/Readme.md
+          - 经验分享: 
+            - 体育课建议: course/spt/resource/ex_by_heart.md
   - PTA Solutions:
       - 简介: pta/Readme.md
       - 乙级考试练习:
