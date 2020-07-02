@@ -32,3 +32,10 @@
 |<font color="red">C</font>|<font color="red">6</font>|
 |D|7|
 
+### 5.Assume that, the page reference string as 2, 3, 2, 1, 5, 2, 4, 5, 3, 2, 5, 2; the system has 3 frames and all 3 frames are initially empty. LRU replacement will have __ page faults.
+|编号|选项|
+|:-|:-|
+|A|9|
+|B|8|
+|<font color="red">C</font>|<font color="red">7</font>|
+|D|6|
