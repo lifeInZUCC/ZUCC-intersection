@@ -192,6 +192,10 @@ nav:
           - 1007: pta/甲级考试练习/1007.md
           - 1008: pta/甲级考试练习/1008.md
           - 1009: pta/甲级考试练习/1009.md
+  - 学生指导手册:
+      - 主页: handbook/Readme.md
+      - 测试:
+        - 你好: handbook/nihao.md
   - 开发者文档:
       - Markdown扩展语法:
           - 警告框语法: help/markdown/admonition.md
