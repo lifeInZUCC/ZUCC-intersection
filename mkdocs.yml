@@ -162,6 +162,8 @@ nav:
               - 测验15: course/301215/resource/test15.md
       - 数据库原理:
           - 导引: course/301102/Readme.md
+      - 概率统计A:
+          - 导引: course/101247/Readme.md
       - 大学英语:
           - 导引: course/eng/Readme.md
           - 经验分享: 
@@ -194,8 +196,8 @@ nav:
           - 1009: pta/甲级考试练习/1009.md
   - 学生指导手册:
       - 主页: handbook/Readme.md
-      - 测试:
-        - 你好: handbook/nihao.md
+      - 文件:
+        - 计算学院: handbook/js.md
   - 开发者文档:
       - Markdown扩展语法:
           - 警告框语法: help/markdown/admonition.md
